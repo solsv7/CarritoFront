@@ -1,0 +1,139 @@
+.heroSection {
+    background-color: rgb(233, 242, 229);
+    width: 100%;
+    padding: 162px 80px 78px;
+  }
+  
+  @media (max-width: 991px) {
+    .heroSection {
+      max-width: 100%;
+      padding: 100px 20px 0;
+    }
+  }
+  
+  .contentWrapper {
+    display: flex;
+    gap: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .contentWrapper {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 42%;
+  }
+  
+  @media (max-width: 991px) {
+    .textContent {
+      width: 100%;
+    }
+  }
+  
+  .contentContainer {
+    display: flex;
+    margin-top: 79px;
+    flex-direction: column;
+    font: 400 17px Lato, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .contentContainer {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .mainTitle {
+    color: rgb(2, 2, 2);
+    letter-spacing: 4px;
+    font: 80px/99px Climate Crisis, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .mainTitle {
+      max-width: 100%;
+      margin-right: 8px;
+      font-size: 40px;
+      line-height: 55px;
+    }
+  }
+  
+  .description {
+    color: rgb(88, 91, 88);
+    line-height: 32px;
+    align-self: start;
+    margin-top: 192px;
+  }
+  
+  @media (max-width: 991px) {
+    .description {
+      margin-top: 40px;
+    }
+  }
+  
+  .ctaButton {
+    border-radius: 72px;
+    background-color: rgb(1, 1, 1);
+    align-self: end;
+    margin-top: 46px;
+    color: rgb(227, 226, 222);
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    padding: 29px 51px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .ctaButton {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+  
+  .decorativeIcon {
+    aspect-ratio: 1.03;
+    object-fit: contain;
+    object-position: center;
+    width: 63px;
+    margin-top: 30px;
+  }
+  
+  .imageContent {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 58%;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .imageContent {
+      width: 100%;
+    }
+  }
+  
+  .heroImage {
+    aspect-ratio: 0.89;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .heroImage {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
